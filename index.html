@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GadgetsNest — Smart Gadgets for Modern Life</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="nav-inner">
+    <div class="logo">
+      <span class="logo-mark">▦</span>
+      <span class="logo-text">GadgetsNest</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-icons">
+      <button aria-label="Search">🔍</button>
+      <button aria-label="Cart">🛒</button>
+      <button aria-label="Wishlist">♡</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <a href="#products" class="badge">✨ Latest 2026 Collection is Here</a>
+  <h1>Elevate Your Everyday with <span class="accent">Smart Gadgets</span></h1>
+  <p class="hero-sub">
+    Discover the latest smartphones, laptops, smartwatches, and accessories
+    meticulously crafted for high performance and sleek aesthetics.
+  </p>
+  <div class="hero-cta">
+    <button class="btn btn-primary">Shop Now</button>
+    <button class="btn btn-outline">Explore Deals</button>
+  </div>
+  <div class="trust-row">
+    <span>★ TRUSTED BY 10,000+</span>
+    <span>★ SECURE PAYMENTS</span>
+    <span>★ LATEST TECH</span>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80" alt="Laptop">
+  </div>
+</section>
+
+<!-- ================= SEARCH ================= -->
+<section class="search-section">
+  <h3>Find Your Perfect Gadget</h3>
+  <p class="muted">Narrow down your search by category or model name.</p>
+  <div class="search-box">
+    <input type="text" placeholder="Search for smartphones, laptops, audio..." />
+  </div>
+  <div class="chips">
+    <button class="chip active">All</button>
+    <button class="chip">Smartphones</button>
+    <button class="chip">Laptops</button>
+    <button class="chip">Audio</button>
+    <button class="chip">Smartwatches</button>
+    <button class="chip">Accessories</button>
+  </div>
+</section>
+
+<!-- ================= FEATURED PRODUCTS ================= -->
+<section class="products" id="products">
+  <div class="section-head">
+    <div>
+      <h2>Featured Products</h2>
+      <p class="muted">Handpicked gadgets that combine performance, style, and value for the ultimate tech enthusiast.</p>
+    </div>
+    
+  </div>
+
+  <div class="product-grid">
+    <article class="product-card" data-category="Laptops">
+      <div class="product-img">
+        <span class="tag-new">NEW</span>
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80" alt="Laptop">
+      </div>
+      <div class="product-body">
+        <div class="row">
+          <h4>UltraBook 15S Laptop</h4>
+          <span class="price">₹72,999</span>
+        </div>
+        <p class="muted small">Core i7, 16GB RAM, 512GB SSD</p>
+        <div class="cta-row">
+          <button class="btn btn-primary full">Buy Now</button>
+          <button class="icon-btn">🛒</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="Smartphones">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80" alt="Smartphone">
+      </div>
+      <div class="product-body">
+        <div class="row">
+          <h4>Nova X Pro Smartphone</h4>
+          <span class="price">₹29,999</span>
+        </div>
+        <p class="muted small">108MP Camera, 120Hz Display</p>
+        <div class="cta-row">
+          <button class="btn btn-primary full">Buy Now</button>
+          <button class="icon-btn">🛒</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="Audio">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Headphones">
+      </div>
+      <div class="product-body">
+        <div class="row">
+          <h4>SonicBeat Headphones</h4>
+          <span class="price">₹4,999</span>
+        </div>
+        <p class="muted small">Active Noise Cancelling</p>
+        <div class="cta-row">
+          <button class="btn btn-primary full">Buy Now</button>
+          <button class="icon-btn">🛒</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="Smartwatches">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Smartwatch">
+      </div>
+      <div class="product-body">
+        <div class="row">
+          <h4>PulseFit Smartwatch</h4>
+          <span class="price">₹6,499</span>
+        </div>
+        <p class="muted small">Heart Rate &amp; SpO2 Monitor</p>
+        <div class="cta-row">
+          <button class="btn btn-primary full">Buy Now</button>
+          <button class="icon-btn">🛒</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="Accessories">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80" alt="TV">
+      </div>
+      <div class="product-body">
+        <div class="row">
+          <h4>Vision 4K Smart TV</h4>
+          <span class="price">₹54,999</span>
+        </div>
+        <p class="muted small">55-inch Ultra HD, HDR10+</p>
+        <div class="cta-row">
+          <button class="btn btn-primary full">Buy Now</button>
+          <button class="icon-btn">🛒</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="Accessories">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=600&q=80" alt="Tablet">
+      </div>
+      <div class="product-body">
+        <div class="row">
+          <h4>AeroPad Tablet</h4>
+          <span class="price">₹24,999</span>
+        </div>
+        <p class="muted small">10.9-inch, 8GB/128GB</p>
+        <div class="cta-row">
+          <button class="btn btn-primary full">Buy Now</button>
+          <button class="icon-btn">🛒</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="about-image">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80" alt="Modern gadgets and electronics workspace">
+  </div>
+  <div class="about-content">
+    <h3>Why Shop With TechZone?</h3>
+    <p>At TechZone, we believe technology should be an enabler of human potential. For over a decade, we've curated the world's most innovative electronics, ensuring every product on our shelves meets the highest standards of performance and reliability.</p>
+    <ul class="features">
+      <li>
+        <span class="feat-icon">✓</span>
+        <div>
+          <strong>Quality Guaranteed</strong>
+          <p>Every product undergoes rigorous testing before it reaches you.</p>
+        </div>
+      </li>
+      <li>
+        <span class="feat-icon">⚡</span>
+        <div>
+          <strong>24/7 Expert Support</strong>
+          <p>Our tech experts are always available to help you make the right choice.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials">
+  <div class="section-head center">
+    <div>
+      <h2>What Our Customers Say</h2>
+      <p class="muted">Hear from some of our 10,000+ happy Customers.</p>
+    </div>
+  </div>
+  <div class="testimonial-grid">
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p>"The delivery was lightning fast and the UltraBook works like a dream. TechZone is now my go-to for all things tech!"</p>
+      <div class="user"><span class="avatar a1">AM</span><div><strong>Arjun M.</strong><small>Verified Buyer</small></div></div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p>"Impressive customer support. They helped me compare smartphones and find the perfect one for my photography needs."</p>
+      <div class="user"><span class="avatar a2">PS</span><div><strong>Priya S.</strong><small>Verified Buyer</small></div></div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★☆</div>
+      <p>"Secure payments and authentic products. I was skeptical about ordering a TV online, but TechZone handled everything perfectly."</p>
+      <div class="user"><span class="avatar a3">RK</span><div><strong>Rahul K.</strong><small>Verified Buyer</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="contact-card">
+    <h3>Get in Touch</h3>
+    <p class="muted">Have questions or need support? We're here for you.</p>
+    <form id="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="John Doe" required />
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@example.com" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+91 98765 43210" />
+      </div>
+      <div class="form-group">
+        <label>Your Message</label>
+        <textarea placeholder="How can we help you?" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary full">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="logo"><span class="logo-mark">▦</span><span class="logo-text">TechZone</span></div>
+      <p class="muted small">© 2024 TechZone Electronics. High-performance gear for the modern era.</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.3-1.2 1.3-1.2H17V2.2c-.9-.1-1.8-.2-2.7-.2-2.8 0-4.7 1.7-4.7 4.8v1.7H6.5V12h3.1v10H14V12h3l.5-3.5H14Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.9 8.8H3.2V21h3.7V8.8ZM5 3a2.1 2.1 0 1 0 0 4.2A2.1 2.1 0 0 0 5 3Zm16 11.2c0-3.3-1.8-5.6-4.7-5.6-1.9 0-3 1-3.4 1.8V8.8H9.3V21H13v-6.3c0-1.7.8-2.7 2.2-2.7 1.3 0 2 1 2 2.7V21H21v-6.8Z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 3.2a2.6 2.6 0 0 0-2.6 2.6v8.4a2.6 2.6 0 0 0 2.6 2.6h8.4a2.6 2.6 0 0 0 2.6-2.6V7.8a2.6 2.6 0 0 0-2.6-2.6H7.8ZM12 7.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 3.1a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Zm5.1-3.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/></svg>
+        </a>
+      </div>
+      <button class="back-to-top" aria-label="Back to home">↑</button>
+    </div>
+    <div>
+      <h5>QUICK LINKS</h5>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#products">New Arrivals</a></li>
+        <li><a href="#products">Best Sellers</a></li>
+        <li><a href="#contact">Gift Cards</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>CUSTOMER SUPPORT</h5>
+      <ul>
+        <li><a href="#contact">Support</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#privacy-policy">Privacy Policy</a></li>
+        <li><a href="#return-policy">Return Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>CONTACT INFO</h5>
+      <ul>
+        <li><a href="https://www.google.com/maps/search/?api=1&query=123+Tech+Park+OMR+Chennai+Tamil+Nadu+600096" target="_blank" rel="noopener noreferrer">📍 123 Tech Park, OMR, Chennai, Tamil Nadu - 600096</a></li>
+        <li><a href="tel:+9118002004000">📞 +91 1800 200 4000</a></li>
+        <li><a href="mailto:hello@techzone.com">✉ hello@techzone.com</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
